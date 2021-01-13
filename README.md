@@ -31,7 +31,7 @@ python standalone.py 8002
 
 BRAT格式 是 BRAT 标注工具存储的格式，BRAT 标注工具内网在线演示：[http://192.168.51.109:8001/index.xhtml#/test/REL/test](http://192.168.51.109:8001/index.xhtml#/test/REL/test)
 
-默认用户名和密码都是ypw。
+默认用户名和密码都是ypw。  注：需要先登录，才可以标注。
 
 配置方法见：[config.py](config.py#L50)
 
