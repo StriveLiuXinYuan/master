@@ -7,7 +7,7 @@
 首先安装python2环境：
 
 ```sh
-conda env create -n py27 --python=2.7
+conda create -n py27 python=2.7
 conda activate py27
 ```
 
