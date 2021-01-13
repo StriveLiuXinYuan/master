@@ -17,6 +17,12 @@ conda activate py27
 python standalone.py
 ```
 
+默认端口号为 8001，如果需要更改端口号，可以启动为：
+
+```sh
+python standalone.py 8002
+```
+
 ## 标注规则配置
 
 详细文档见：https://github.com/deepint/BERT-Finetuner/blob/master/docs/%E5%85%B3%E7%B3%BB%E6%95%B0%E6%8D%AE%E6%96%87%E6%A1%A3.md
