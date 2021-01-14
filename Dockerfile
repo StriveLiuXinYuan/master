@@ -1,6 +1,6 @@
 FROM python:2.7-slim-buster
 ENV LANG C.UTF-8
-EXPOSE 8000
+EXPOSE 8001
 WORKDIR /app
 ENV PYTHONPATH=/app
 
@@ -12,4 +12,4 @@ RUN ldconfig && \
     apt-get autoremove && \
     rm -rf /var/lib/apt/lists/* /tmp/* ~/*
 
-CMD ["sh", "-c", "python standalone.py"]
+CMD ["sh", "-c", "python standalone.py 8001"]
