@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: brat
-		image: harbor.richinfoai.com/richinfoai/brat:202101141551-90fa5e4
+	image: harbor.richinfoai.com/richinfoai/brat:202101141551-90fa5e4
         ports:
         - containerPort: 8001
         resources:
