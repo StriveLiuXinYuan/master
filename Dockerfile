@@ -9,7 +9,7 @@ RUN sed -i 's#http://archive.ubuntu.com#http://mirrors.163.com#g' /etc/apt/sourc
     apt-get update
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-    wget curl nano mime-type
+    wget curl nano mime-support
 
 COPY . .
 RUN /app/install_quiet.sh
