@@ -47,7 +47,7 @@ WORK_DIR = path_join(BASE_DIR, 'work')
 #
 #     'editor': 'annotate',
 USER_PASSWORD = {
-    'ypw': 'ypw',
+    'labeler': 'rich!Q@W#E',
 #     (add USERNAME:PASSWORD pairs below this line.)
 }
 ########## ADVANCED CONFIGURATION OPTIONS ##########
