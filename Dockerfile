@@ -4,8 +4,8 @@ EXPOSE 8001
 WORKDIR /app
 ENV PYTHONPATH=/app
 
-RUN sed -i 's#http://archive.ubuntu.com#http://mirrors.163.com#g' /etc/apt/sources.list && \
-    sed -i 's#http://security.ubuntu.com#http://mirrors.163.com#g' /etc/apt/sources.list && \
+RUN sed -i 's#http://deb.debian.org#http://mirrors.163.com#g' /etc/apt/sources.list && \
+    sed -i 's#http://security.debian.org#http://mirrors.163.com#g' /etc/apt/sources.list && \
     apt-get update
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
