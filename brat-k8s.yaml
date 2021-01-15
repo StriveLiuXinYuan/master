@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: brat
-        image: harbor.richinfoai.com/richinfoai/brat:202101141551-90fa5e4
+        image: SERVER_IMAGE_TAG_HERE
         ports:
         - containerPort: 8001
         resources:
@@ -44,6 +44,7 @@ spec:
         volumeMounts:
           - name: brat-volume
             mountPath: /app/data
+            subPath: brat
       volumes:
         - name: brat-volume
           persistentVolumeClaim:
